@@ -10,7 +10,7 @@ describe('Bottles', () => {
     expect(new Bottles().verse(99)).toBe(expected);
   });
 
-  test.skip('another verse', () => {
+  test('another verse', () => {
     const expected =
       '3 bottles of milk on the wall, ' +
       '3 bottles of milk.\n' +
@@ -19,7 +19,7 @@ describe('Bottles', () => {
     expect(new Bottles().verse(3)).toBe(expected);
   });
 
-  test.skip('verse 2', () => {
+  test('verse 2', () => {
     const expected =
       '2 bottles of milk on the wall, ' +
       '2 bottles of milk.\n' +
