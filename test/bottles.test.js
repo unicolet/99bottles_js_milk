@@ -28,7 +28,7 @@ describe('Bottles', () => {
     expect(new Bottles().verse(2)).toBe(expected);
   });
 
-  test.skip('verse 1', () => {
+  test('verse 1', () => {
     const expected =
       '1 bottle of milk on the wall, ' +
       '1 bottle of milk.\n' +
